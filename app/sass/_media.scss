@@ -1,0 +1,149 @@
+@import "_vars";
+
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width : 1199px) {
+	.main__nav {
+		display: none;
+	}
+
+	.phone-number {
+		display: none;
+	}
+
+	.callback__button {
+		display: none;
+	}
+
+	.menu-toggle {
+		display: block;
+	}
+}
+
+
+@media only screen and (max-width : 991px) {
+	.squares {
+		display: none;
+	}
+
+	.content-text {
+		margin-top: 20px;
+	}
+
+	.table-image {
+		width: 100%;
+	}
+
+	.right-table__title {
+		margin-top: 4px;
+	}
+
+	.we-item {
+		margin-top: 10px;
+	}
+
+	.rewiew {
+		margin-top: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px #ccc solid;
+	}
+}
+
+
+@media only screen and (max-width : 767px) {
+	.main-addons {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.border-container {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.in__bordered-text {
+		text-align: center;
+	}
+
+	.in__bordered-button {
+		margin-top: 10px;
+	}
+}
+
+
+@media only screen and (max-width : 575px) {
+	#section1 {
+		padding-bottom: 50px;
+	}
+	.main-title {
+		background-size: contain;
+		background-position: center 20px;
+	}
+	.mouse-scroll {
+		display: none;
+	}
+	.section2-image {
+		img {
+			height: 200px;
+		}
+	}
+	.table-title {
+		font-size: 20px;
+	}
+
+	.section7__header-container {
+		background-size: contain;
+	}
+	.section7__title {
+		font-size: 34px;
+	}
+	.footer {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.footer-row {
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.checkbox-custom {
+		width: 27px;
+	}
+}
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	/**/
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	/**/
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	/**/
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	/**/
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	/**/
+}
+

@@ -1,0 +1,30 @@
+@import "../libs/bootstrap-grid/bootstrap-grid.min.css"; // Теперь необходимо казывать расширение .css
+@import "../libs/animate.css";
+@import "../libs/owl.carousel.min.css";
+@import "../libs/owl.theme.default.min.css";
+@import "../libs/magnific-popup.css";
+
+
+@-webkit-keyframes swinging {
+    0% {
+        top: 0
+    }
+    50% {
+        top: 15px
+    }
+    100% {
+        top: 0
+    }
+}
+
+@keyframes swinging {
+    0% {
+        top: 0
+    }
+    50% {
+        top: 15px
+    }
+    100% {
+        top: 0
+    }
+}
